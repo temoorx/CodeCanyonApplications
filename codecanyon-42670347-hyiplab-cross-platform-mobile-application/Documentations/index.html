@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HyipLab - Cross Platform Mobile Application for HyipLab</title>
+  <!-- favicon -->
+  <link rel="icon" href="assets/images/favicon.png" sizes="16x16" type="image/png" />
+  <!-- bootstrap 5  -->
+  <link rel="stylesheet" href="assets/css/lib/bootstrap.min.css" />
+  <!-- fontawesome 5  -->
+  <link rel="stylesheet" href="assets/css/lib/font-awesome.css" />
+  <!-- lineawesome font -->
+  <link rel="stylesheet" href="assets/css/lib/line-awesome.css" />
+  <!-- Simplebar Js  -->
+  <link rel="stylesheet" href="assets/css/lib/simplebar.css" />
+  <link rel="stylesheet" href="assets/css/lib/file-explore.css" />
+
+  <!-- main css -->
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#docNav" data-bs-offset="50">
+
+
+  <header class="mobile-header">
+    <div class="container">
+      <div class="row g-4 align-items-center justify-content-between">
+        <div class="col-6">
+          <!-- Logo  -->
+          <a href="index.html" class="logo">
+            <img src="assets/images/logo.png" alt="images" class="img-fluid logo__is" />
+          </a>
+          <!-- Logo End -->
+        </div>
+        <div class="col-6">
+          <div class="text-end">
+            <button type="button" class="btn btn--sqr sidebar-toggler">
+              <i class="fas fa-bars"></i>
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="doc">
+    <div class="doc__sidebar" id="docNav">
+      <div class="doc-logo">
+        <!-- Logo  -->
+        <a href="index.html" class="logo">
+          <img src="assets/images/logo.png" alt="images" class="img-fluid logo__is" />
+        </a>
+        <!-- Logo End -->
+      </div>
+      <nav class="doc-nav" data-simplebar>
+        <ul class="list doc-nav__list">
+          <li>
+            <a href="#introduction" class="doc-nav__link nav-link">
+              <span class="list list--row align-items-center"><i class="lar la-clone"></i> <span
+                  class="d-block">introduction</span></span>
+            </a>
+          </li>
+          <li>
+            <a href="#requirements" class="doc-nav__link nav-link">
+              <span class="list list--row align-items-center"><i class="las la-server"></i> <span
+                  class="d-block">requirements</span></span>
+            </a>
+          </li>
+          <li>
+            <a href="#installation" class="doc-nav__link nav-link">
+              <span class="list list--row align-items-center"><i class="las la-cog"></i> <span class="d-block">how to
+                  install </span></span> </a>
+          </li>
+          <li>
+            <a href="#folder" class="doc-nav__link nav-link">
+              <span class="list list--row align-items-center"><i class="las la-folder"></i> <span class="d-block">
+                  folder structure
+                </span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="#screens" class="doc-nav__link nav-link">
+              <span class="list list--row align-items-center"><i class="las la-desktop"></i>
+                <span class="d-block">
+                  Screens
+                </span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="#setup" class="doc-nav__link nav-link">
+              <span class="list list--row align-items-center"><i class="las la-cog"></i>
+                <span class="d-block">
+                  App Setup
+                </span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="#publish" class="doc-nav__link nav-link">
+              <span class="list list--row align-items-center"><i class="las la-check-circle"></i>
+                <span class="d-block">
+                  Publish App
+                </span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="#support" class="doc-nav__link nav-link">
+              <span class="list list--row align-items-center"><i class="las la-headset"></i>
+                <span class="d-block">
+                  Support
+                </span>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="copyright">
+        <p class="m-0 text--white px-3 text-center">Copyright © <a href="https://viserlab.com/"
+            class="t-link t-link--canvas">ViserLab</a> 2023</p>
+      </div>
+    </div>
+    <div class="doc__body">
+      <div id="introduction" class="section--sm section--first">
+        <div class="list">
+          <div class="doc-head">
+            <div class="doc-head__content">
+              <h5 class="doc-head__title">
+                HyipLab
+              </h5>
+              <span class="doc-head__sub-title">
+                Cross Platform Mobile Application for HyipLab
+              </span>
+            </div>
+          </div>
+          <div class="doc-body">
+            <ul class="list" style="--gap: 0.2rem">
+              <li><strong>Created :</strong> 19-12-2023</li>
+              <li>
+                <strong>By :</strong>
+                <a href="https://codecanyon.net/user/viserlab" class="t-link">Viserlab</a>
+              </li>
+              <li><strong>Email :</strong> <a class="t-link" href="mailto:support@viserlab.com">support@viserlab.com</a>
+              </li>
+            </ul>
+            <p class="mt-4 lg-text">
+              HyipLab is a complete investment platform Flutter(Android & IOS) mobile application. It’s developed
+              for those people who already have our HyipLab Laravel Application.
+            </p>
+
+            <p class="mt-4 lg-text">
+              This application is required for our web application. If you didn’t purchase the web app, please purchase
+              it by <a
+                href="https://codecanyon.net/item/hyiplab-complete-hyip-investment-system/29668217"
+                target="_blank">clicking here</a>.
+            </p>
+
+            <blockquote class="blockquote text--accent">
+              If needed, we will update this App continuously and come with new features and security patches. We will
+              try to give the best user experience to all of our clients.
+            </blockquote>
+
+            <p class="mt-4 lg-text">
+              Thank you for purchasing <strong>HyipLab</strong>. If you have any questions or queries that are not
+              answered in this document, please feel free to contact us via email. We will try to respond to you as soon
+              as possible. Thank you so much.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="requirements" class="section--sm">
+        <div class="container-fluid p-0">
+          <div class="row g-0">
+            <div class="col-12">
+              <div class="doc-head">
+                <div class="doc-head__content">
+                  <h5 class="doc-head__title">Requirements</h5>
+                  <span class="doc-head__sub-title">
+                    Follow the below requirements.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="row g-4 align-items-center">
+                <div class="col-xl-12">
+                  <div class="doc-body">
+                    <ul class="list list--base" style="--gap: 0.5rem">
+                      <li>Download and install Any one from these IDE(Android studio, Vs Code)</li>
+                      <li>Flutter and Dart must be successfully installed and setup on your device in order to edit this
+                        project.</li>
+                      <li>Install the Flutter and Dart plugins after setting up your editor</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="installation" class="section--sm">
+        <div class="container-fluid p-0">
+          <div class="row g-0">
+            <div class="col-12">
+              <div class="doc-head">
+                <div class="doc-head__content">
+                  <h5 class="doc-head__title">Installation</h5>
+                  <span class="doc-head__sub-title">
+                    Follow the below instruction to install the system.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="row g-4 align-items-center">
+                <div class="col-xl-12">
+                  <div class="doc-body">
+                    <ul class="list list--base" style="--gap: 0.5rem">
+                      <li>Unzip the downloaded project and open the project to the preferred IDE (Android Studio /
+                        Visual Code)</li>
+                      <li>Create and configure a firebase project then you will get a &nbsp; <b><em>google-services.json</em></b> &nbsp; file. Paste the &nbsp; <b><em>google-services.json</em></b> &nbsp; file  in &nbsp;
+                        <b>hyiplab/android/app</b> &nbsp; directory/folder.
+                      </li>
+                      <li>On IDE click the pubspecs.yaml file then clicks on the Pub Get button top of the IDE to
+                        install the libraries.</li>
+                      <li>Make sure dart sdk is up to date</li>
+                      <li>To run the project, attach a real android device.</li>
+                      <li>Then press the run button to start project (you can still open multi emulator at the same
+                        time)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="folder" class="section--sm">
+        <div class="container-fluid p-0">
+          <div class="row g-0">
+            <div class="col-12">
+              <div class="doc-head">
+                <div class="doc-head__content">
+                  <h5 class="doc-head__title">Folder Structure</h5>
+                  <span class="doc-head__sub-title">
+                    Folders and files structure are showing below
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="row g-4 align-items-center">
+                <div class="col-xl-12">
+                  <div class="doc-body">
+                    <ul class="file-tree">
+                      <li><a href="#">assets</a>
+                        <ul>
+
+                          <li>animation
+                            <ul></ul>
+                          </li>
+
+                          <li>fonts
+                            <ul></ul>
+                          </li>
+
+                          <li>icons
+                            <ul></ul>
+                          </li>
+
+                          <li>
+                            images <ul></ul>
+                          </li>
+
+                        </ul>
+                      </li>
+
+                      <li>lib
+                        <ul>
+
+                          <li>constants
+                            <ul>
+                              <li>mehtod.dart
+                              </li>
+                              <li>mystring.dart
+                              </li>
+                            </ul>
+                          </li>
+
+                          <li><a href="#">core</a>
+                            <ul>
+                              <li>di_service <ul></ul>
+                              </li>
+                              <li>helper
+                                <ul></ul>
+                              </li>
+                              <li>route
+                                <ul></ul>
+                              </li>
+                              <li>theme
+                                <ul></ul>
+                              </li>
+                              <li>utils
+                                <ul></ul>
+                              </li>
+                            </ul>
+                          </li>
+
+                          <li><a href="#">data</a>
+                            <ul>
+                              <li>controller
+                                <ul></ul>
+                              </li>
+                              <li>model
+                                <ul></ul>
+                              </li>
+                              <li>repo
+                                <ul></ul>
+                              </li>
+                              <li>services
+                                <ul></ul>
+                              </li>
+                            </ul>
+                          </li>
+
+                          <li><a href="#">view</a>
+                            <ul>
+                              <li>components
+                                <ul></ul>
+                              </li>
+                              <li>screens
+                                <ul></ul>
+                              </li>
+                            </ul>
+                          </li>
+                          <li>main.dart</li>
+                          <li>push_notification_service.dart</li>
+                        </ul>
+                      </li>
+                      <li>pubspec.yaml</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="screens" class="section--sm">
+        <div class="container-fluid p-0">
+          <div class="row g-0">
+            <div class="col-12">
+              <div class="doc-head">
+                <div class="doc-head__content">
+                  <h5 class="doc-head__title">Screens</h5>
+                  <span class="doc-head__sub-title">
+                    Our app screens list are showing below
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="row g-4">
+                <div class="col-xl-12">
+                  <div class="doc-body h-auto">
+                    <ul class="list list--base" style="--gap: 0.5rem">
+                      <li>Splash Screen</li>
+                      <li>Login and Registration Screen</li>
+                      <li>Forget Password and Reset Password Screen</li>
+                      <li>Email, Sms and 2FA Verification Screen</li>
+                      <li>Smart Homepage</li>
+                      <li>Deposit Screen</li>
+                      <li>Withdraw Screen</li>
+                      <li>Referral Screen</li>
+                      <li>Menu Screen</li>
+                      <li>Profile Screen</li>
+                      <li>Change Password Screen</li>
+                      <li>Transaction Screen</li>
+                      <li>FAQ Screen</li>
+                      <li>My Investment Screen</li>
+                      <li>Invest Plan Screen</li>
+                      <li>Balance Transfer Screen</li>
+                      <li>And more...</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="setup" class="section--sm">
+        <div class="container-fluid p-0">
+          <div class="row g-0">
+            <div class="col-12">
+              <div class="doc-head">
+                <div class="doc-head__content">
+                  <h5 class="doc-head__title">Setup</h5>
+                  <span class="doc-head__sub-title">
+                    Application Setup
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="row g-4">
+                <div class="col-xl-10">
+                  <div class="doc-body h-auto">
+                    <div class="mt-4">
+                      <h5>1. Change App Name</h5>
+                      <p>
+                      <ul style="list-style: none;">
+                        <li><strong><i class="las la-dot-circle"></i> For Android</strong>
+                          <ul style="list-style:none">
+                            <li><i class="las la-circle"></i> Open AndroidMainfest.xml to IDE from android/app/src/main
+                            </li>
+                            <li><i class="las la-circle"></i> Change the label name inside the application tag from this
+                              file</li>
+                            <li>
+                              <img src="assets/images/app_name.png" class="w-100 mt-3" alt="">
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="mt-4"><strong><i class="las la-dot-circle"></i> For IOS</strong>
+                          <ul style="list-style:none">
+                            <li><i class="las la-circle"></i> Open Info.plist file to IDE from ios/Runner</li>
+                            <li><i class="las la-circle"></i> Change the app name inside the dict. Please follow the
+                              below instruction.</li>
+                            <li>
+                              <img src="assets/images/app_name_ios.png" class="w-100 mt-3" alt="">
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                      </p>
+                    </div>
+                    <div class="mt-4">
+                      <h5>2. Logo</h5>
+                      <ul style="list-style: none;">
+                        <li><strong><i class="las la-dot-circle"></i> For Android</strong>
+                          <ul style="list-style:none">
+                            <li><i class="las la-circle"></i> Go to /android/app/src/main/res and replace all mipmap
+                              folder with your generated icon android folder.</li>
+                            <li>
+                              <img src="assets/images/android_logo.png" class="w-100 mt-3" alt="">
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="mt-4"><strong><i class="las la-dot-circle"></i> For IOS</strong>
+                          <ul style="list-style:none">
+                            <li><i class="las la-circle"></i> Go to /ios/Runner and replace Assets.xcassets with your
+                              generated Assets.xcassets folder.</li>
+                            <li>
+                              <img src="assets/images/ios_logo.png" class="w-100 mt-3" alt="">
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <p><strong>Note:</strong> For different type of device we need to add different size of icon. So
+                        that you should to need to resize them. You can use <a href="https://appicon.co/"
+                          target="_blank">https://appicon.co/</a> platform to generate multiple size icons for android
+                        and ios. It will provide you the icon with a correct folder structure.</p>
+                    </div>
+                    <div class="mt-4">
+                      <h5>3. API Base URL</h5>
+                      <ul style="list-style: none;">
+                        <li><i class="las la-dot-circle"></i> Open lib/core/utils/url_container.dart file and change
+                          base url string
+                          <ul style="list-style:none">
+                            <li>
+                              <img src="assets/images/base_url.png" class="w-100 mt-3" alt="">
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="mt-4">
+                      <h5>4. Change App Color</h5>
+                      <ul style="list-style: none;">
+                        <li><i class="las la-dot-circle"></i> Open lib/core/utils/my_colorl.dart folder and Replace the
+                          value in the primary Color field with the prepared color code. From here, you can easily
+                          change the color of something else.
+                          <ul style="list-style:none">
+                            <li>
+                              <img src="assets/images/color.png" class="w-100 mt-3" alt="">
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="mt-4">
+                      <h5>5.Change Onboard Content</h5>
+                      <ul style="list-style: none;">
+
+                          <ul style="list-style:none">
+                            <li><i class="las la-circle"></i>
+                              To change onboard image go to <b>assets/images/onboard</b> folder then paste your onboard image here with the following names: first.jpg, second.jpg, third.jpg</li>
+                            <li>
+                              <img src="assets/images/onboard_image.png" class="w-100 mt-3" alt="">
+                            </li>
+                          </ul>
+                        </li>
+                        <li><strong><i class="las la-dot-circle mt-3"></i> Change your Onboard Screen Text </strong>
+                          <ul style="list-style:none">
+                            <li><i class="las la-circle"></i>
+To customize the onboard screen title and subtitle, navigate to the <b>lib/utils/my_strings.dart</b> file. Insert your desired title and subtitle following the format depicted in the screenshot below:</li>
+                            <li>
+                              <img src="assets/images/onboard_name.png" class="w-100 mt-3" alt="">
+                            </li>
+                          </ul>
+                        </li>
+                      
+                      </ul>
+                    </div>
+                    <div class="mt-4">
+                      <h5>6. Change Package Name</h5>
+                      <ul style="list-style: none;">
+                        <li><i class="las la-dot-circle"></i> Right click on project folder and click on Replace in
+                          Files
+                          <ul style="list-style:none">
+                            <li>
+                              <img src="assets/images/package_1.png" class="w-100 mt-3" alt="">
+                            </li>
+                          </ul>
+                        </li>
+                        <li><i class="las la-dot-circle"></i> Type dev.vlab.com.hyiplab in the first indicated box and your own package name in the second marked box. Then click Replace All button
+                          <ul style="list-style:none">
+                            <li>
+                              <img src="assets/images/package_2.png" class="w-100 mt-3" alt="">
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="publish" class="section--sm">
+        <div class="container-fluid p-0">
+          <div class="row g-0">
+            <div class="col-12">
+              <div class="doc-head">
+                <div class="doc-head__content">
+                  <h5 class="doc-head__title">Publish App</h5>
+                  <span class="doc-head__sub-title">
+                    Follow below instruction to publish the app
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="row g-4">
+                <div class="col-xl-6">
+                  <div class="doc-body h-auto">
+                    <h5>1. Android</h5>
+                    <p>Follow the guidelines in the following link to publish the app to Play Store.</p>
+                    <p>PlayStore: <a href="https://flutter.dev/docs/deployment/android"
+                        target="_blank">https://flutter.dev/docs/deployment/android</a></p>
+                    <h5 class="mt-5">2. IOS</h5>
+                    <p>Follow the guidelines in the following link to publish the app to AppStore.</p>
+                    <p>AppStore: <a href="https://flutter.dev/docs/deployment/ios"
+                        target="_blank">https://flutter.dev/docs/deployment/ios</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="support" class="section--sm">
+        <div class="container-fluid p-0">
+          <div class="row g-0">
+            <div class="col-12">
+              <div class="doc-head">
+                <div class="doc-head__content">
+                  <h5 class="doc-head__title">Support</h5>
+                  <span class="doc-head__sub-title">
+                    Support information details
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="row g-4">
+                <div class="col-xl-6">
+                  <div class="doc-body h-auto">
+                    <p>
+                      Once again, thank you so much for purchasing this App. As I said at the beginning, I'd be glad to
+                      help you if you have any questions relating to this App. No guarantees, but I'll do my best to
+                      assist. If you have any queries, please feel free to contact us at Support Center.
+                    </p>
+                    <p class="m-0 xl-text">
+                      Email Us:
+                      <a href="https://viserlab.com/support" class="t-link">
+                        https://viserlab.com/support
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery library -->
+  <script src="assets/js/lib/jquery-3.6.0.min.js"></script>
+  <!-- bootstrap 5 js -->
+  <script src="assets/js/lib/bootstrap.bundle.min.js"></script>
+  <!-- Simplebar Js  -->
+  <script src="assets/js/lib/simplebar.js"></script>
+  <script src="assets/js/lib/file-explore.js"></script>
+  <!-- main js -->
+  <script src="assets/js/app.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".file-tree").filetree();
+    });
+  </script>
+</body>
+
+</html>

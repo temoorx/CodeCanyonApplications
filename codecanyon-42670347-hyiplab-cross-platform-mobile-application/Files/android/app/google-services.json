@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "106851372678",
+    "project_id": "customapp2-3a7c0",
+    "storage_bucket": "customapp2-3a7c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106851372678:android:57c81a16b1d97855e5cb07",
+        "android_client_info": {
+          "package_name": "dev.peerbit.net"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106851372678-drtqk1r6u04e6tnb9q671ep6noe5bvpk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhVKts8btkpeFgarXE1j66s12QVXKE6EI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106851372678-drtqk1r6u04e6tnb9q671ep6noe5bvpk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "106851372678-15d53h6nha2bc8782sb1vfqmo5uijbfh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "dev.vlab.boulpiktrading.boulpikLatest"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106851372678:android:d23d61f4140e33dce5cb07",
+        "android_client_info": {
+          "package_name": "dev.vlab.boulpik_trading"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106851372678-drtqk1r6u04e6tnb9q671ep6noe5bvpk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhVKts8btkpeFgarXE1j66s12QVXKE6EI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106851372678-drtqk1r6u04e6tnb9q671ep6noe5bvpk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "106851372678-15d53h6nha2bc8782sb1vfqmo5uijbfh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "dev.vlab.boulpiktrading.boulpikLatest"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106851372678:android:037e241ffbd1a2a4e5cb07",
+        "android_client_info": {
+          "package_name": "dev.vlab.hyip_lab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106851372678-drtqk1r6u04e6tnb9q671ep6noe5bvpk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhVKts8btkpeFgarXE1j66s12QVXKE6EI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106851372678-drtqk1r6u04e6tnb9q671ep6noe5bvpk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "106851372678-15d53h6nha2bc8782sb1vfqmo5uijbfh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "dev.vlab.boulpiktrading.boulpikLatest"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
